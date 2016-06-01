@@ -1,0 +1,23 @@
+{
+  "name": "parallax-shapes",
+  "version": "0.0.1",
+  "description": "parallax scrolling shapes",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianheyn/parallax-shapes.git"
+  },
+  "keywords": [
+    "parallax",
+    "shapes",
+    "scrolling"
+  ],
+  "author": "Christian Heyn",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^4.1.1"
+  }
+}
