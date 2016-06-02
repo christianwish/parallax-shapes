@@ -1,0 +1,33 @@
+body {
+    background-color: #09f;
+    height: 3000px;
+}
+
+#bg {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bg .ellipse {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    background-color: #3377ff;
+}
+
+#bg .rect {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#bg .triangle {
+    width: 0px;
+    height: 0px;
+    display: block;
+    border: solid 25px transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+}
