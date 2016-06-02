@@ -1,33 +1,33 @@
 body {
-    background-color: #09f;
+    background-color: #ccc;
     height: 3000px;
 }
 
-#bg {
+#shapes {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-#bg .ellipse {
-    width: 30px;
-    height: 30px;
+.ellipse span {
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     display: block;
     background-color: #3377ff;
 }
 
-#bg .rect {
-    width: 30px;
-    height: 30px;
+.rect span {
+    width: 10px;
+    height: 10px;
     display: block;
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-#bg .triangle {
+.triangle span {
     width: 0px;
     height: 0px;
     display: block;
-    border: solid 25px transparent;
+    border: solid 10px transparent;
     border-bottom-color: rgba(0, 0, 0, 0.4);
 }
