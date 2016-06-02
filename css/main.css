@@ -1,0 +1,33 @@
+body {
+    background-color: #ccc;
+    height: 3000px;
+}
+
+#shapes {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ellipse span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    background-color: #3377ff;
+}
+
+.rect span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.triangle span {
+    width: 0px;
+    height: 0px;
+    display: block;
+    border: solid 10px transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+}

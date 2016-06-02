@@ -2,58 +2,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>ParallaxShapes</title>
+        <title>ParallaxShapes Demo</title>
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <style type="text/css">
-            body {
-                background-color: #09f;
-                height: 3000px;
-            }
-
-            #bg {
-                position: relative;
-                width: 100%;
-                overflow: hidden;
-            }
-
-            #bg .ellipse {
-                width: 30px;
-                height: 30px;
-                border-radius: 50%;
-                display: block;
-                background-color: #3377ff;
-            }
-
-            #bg .rect {
-                width: 30px;
-                height: 30px;
-                display: block;
-                background-color: rgba(255, 255, 255, 0.4);
-            }
-
-            #bg .triangle {
-                width: 0px;
-                height: 0px;
-                display: block;
-                border: solid 25px transparent;
-                border-bottom-color: rgba(0, 0, 0, 0.4);
-            }
-
-        </style>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
-        <div id="bg"></div>
-        <script src="js/main.js"></script>
-        <script type="text/javascript">
-            var sBg = new ParallaxShapes({
-                parent: document.getElementById('bg'),
-                shapeLength: 200,
-                classes: [
-                    'ellipse',
-                    'rect',
-                    'triangle'
-                ]
-            });
-        </script>
+        <div id="shapes"></div>
+        <script src="js/script.js"></script>
     </body>
 </html>
